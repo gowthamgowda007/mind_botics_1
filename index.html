@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mind Botics - AI Chatbots, NLP, Machine Learning, and Business Automation">
+
+    <title>Mind Botics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="mindbotics.jpg" alt="Mind Botics Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Mind Botics</h1>
+            <p>Empowering businesses with cutting-edge AI solutions</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Us</h2>
+            <p>At <strong>Mind Botics</strong>, we are revolutionizing the future of business operations through cutting-edge AI technologies...</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-content">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>AI Chatbots</h3>
+                <p>We craft custom AI-driven conversational solutions designed to elevate user engagement...</p>
+            </div>
+            <div class="service">
+                <h3>Natural Language Processing</h3>
+                <p>Our advanced NLP capabilities enable machines to understand, process...</p>
+            </div>
+            <div class="service">
+                <h3>Machine Learning & Deep Learning</h3>
+                <p>We develop predictive models and intelligent systems to help businesses make data-driven decisions...</p>
+            </div>
+            <div class="service">
+                <h3>Business Automation</h3>
+                <p>We automate repetitive tasks to enhance productivity and reduce operational costs...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-content">
+            <h2>Contact Us</h2>
+            <p>Ready to unlock the power of AI for your business? Let’s talk!</p>
+            <p>Email: <a href="mailto:gowtham.se21@bmsce.ac.in">gowtham.se21@bmsce.ac.in</a></p>
+            <p>Phone: 7676736779</p>
+            <p>Website: <a href="http://www.mindbotics.com" target="_blank">www.mindbotics.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mind Botics. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/mindbotics" target="_blank">GitHub</a> |
+            <a href="https://twitter.com/mindbotics" target="_blank">Twitter</a>
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
